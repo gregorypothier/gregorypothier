@@ -5,9 +5,10 @@ math: true
 image:
   placement: 2
   caption: 'Image credit: [**John Moeses Bauan**](https://unsplash.com/photos/OGZtQF8iC0g)'
+draft: true
 ---
 
-Hugo Blox Builder is designed to give technical content creators a seamless experience. You can focus on the content and Wowchemy handles the rest.
+Wowchemy is designed to give technical content creators a seamless experience. You can focus on the content and Wowchemy handles the rest.
 
 **Highlight your code snippets, take notes on math classes, and draw diagrams from textual representation.**
 
@@ -47,9 +48,9 @@ A simple mindmap defined as a Markdown list:
 ```markmap {height="200px"}
 - Hugo Modules
   - wowchemy
-  - blox-plugins-netlify
-  - blox-plugins-netlify-cms
-  - blox-plugins-reveal
+  - wowchemy-plugins-netlify
+  - wowchemy-plugins-netlify-cms
+  - wowchemy-plugins-reveal
 ```
 </code>
 </pre>
@@ -60,9 +61,9 @@ renders as
 ```markmap {height="200px"}
 - Hugo Modules
   - wowchemy
-  - blox-plugins-netlify
-  - blox-plugins-netlify-cms
-  - blox-plugins-reveal
+  - wowchemy-plugins-netlify
+  - wowchemy-plugins-netlify-cms
+  - wowchemy-plugins-reveal
 ```
 
 A more advanced mindmap with formatting, code blocks, and math:
@@ -73,9 +74,9 @@ A more advanced mindmap with formatting, code blocks, and math:
 ```markmap
 - Mindmaps
   - Links
-    - [Wowchemy Docs](https://docs.hugoblox.com/)
+    - [Wowchemy Docs](https://wowchemy.com/docs/)
     - [Discord Community](https://discord.gg/z8wNYzb)
-    - [GitHub](https://github.com/HugoBlox/hugo-blox-builder)
+    - [GitHub](https://github.com/wowchemy/wowchemy-hugo-themes)
   - Features
     - Markdown formatting
     - **inline** ~~text~~ *styles*
@@ -98,9 +99,9 @@ renders as
 ```markmap
 - Mindmaps
   - Links
-    - [Wowchemy Docs](https://docs.hugoblox.com/)
+    - [Wowchemy Docs](https://wowchemy.com/docs/)
     - [Discord Community](https://discord.gg/z8wNYzb)
-    - [GitHub](https://github.com/HugoBlox/hugo-blox-builder)
+    - [GitHub](https://github.com/wowchemy/wowchemy-hugo-themes)
   - Features
     - Markdown formatting
     - **inline** ~~text~~ *styles*
@@ -341,7 +342,7 @@ renders as
 
 ### Callouts
 
-Academic supports a [shortcode for callouts](https://docs.hugoblox.com/content/writing-markdown-latex/#callouts), also referred to as _asides_, _hints_, or _alerts_. By wrapping a paragraph in `{{%/* callout note */%}} ... {{%/* /callout */%}}`, it will render as an aside.
+Academic supports a [shortcode for callouts](https://wowchemy.com/docs/content/writing-markdown-latex/#callouts), also referred to as _asides_, _hints_, or _alerts_. By wrapping a paragraph in `{{%/* callout note */%}} ... {{%/* /callout */%}}`, it will render as an aside.
 
 ```markdown
 {{%/* callout note */%}}
@@ -371,7 +372,7 @@ renders as
 
 ### Icons
 
-Academic enables you to use a wide range of [icons from _Font Awesome_ and _Academicons_](https://docs.hugoblox.com/getting-started/page-builder/#icons) in addition to [emojis](https://docs.hugoblox.com/content/writing-markdown-latex/#emojis).
+Academic enables you to use a wide range of [icons from _Font Awesome_ and _Academicons_](https://wowchemy.com/docs/getting-started/page-builder/#icons) in addition to [emojis](https://wowchemy.com/docs/content/writing-markdown-latex/#emojis).
 
 Here are some examples using the `icon` shortcode to render icons:
 
