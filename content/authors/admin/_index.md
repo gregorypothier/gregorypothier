@@ -6,8 +6,8 @@ title: Gregory Pothier
 #name_pronunciation: Chien Shiung Wu
 
 # Full name (for SEO)
-first_name: Shiung Wu
-last_name: Chien
+first_name: Gregory
+last_name: Pothier
 
 # Status emoji
 status:
@@ -114,7 +114,6 @@ social:
   # Link to a PDF of your resume/CV.
   # To use: copy your resume to `static/uploads/resume.pdf`, enable `ai` icons in `params.yaml`,
   # and uncomment the lines below.
-
   - icon: envelope
     icon_pack: fas
     link: '/#contact'
