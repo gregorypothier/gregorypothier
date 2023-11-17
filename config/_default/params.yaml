@@ -8,8 +8,8 @@
 appearance:
   theme_day: minimal
   theme_night: minimal
-  font: Roboto
-  font_size: M
+  font: 'custom_font'
+  font_size: L
 
 # SEO
 

@@ -1,6 +1,6 @@
 ---
 title: A Stateless Heuristic Approach to Detecting Encrypted Botnet Command & Control Traffic Over Standard HTTP POST.
-summary: Examination of Hypertext Transfer Protocol (HTTP) POST data to determine if it's feasible to differentiate legitimate traffic from botnet Command and Control (C&C) traffic without the need to decrypt said traffic.
+summary: Examination of HTTP POST data to differentiate legitimate traffic from botnet C&C traffic.
 tags:
   - Security
 date: '2011-12-14T00:00:00Z'
